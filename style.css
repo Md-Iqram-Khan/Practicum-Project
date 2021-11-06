@@ -1,0 +1,38 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.sub-nav-item {
+  color: white;
+}
+
+.sub-nav-item:hover {
+  color: greenyellow;
+}
+
+.card-image {
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px grey;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-item {
+  color: white;
+}
+
+.footer-item:hover {
+  color: #071a52;
+}
